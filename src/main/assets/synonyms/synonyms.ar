@@ -1,0 +1,2821 @@
+{
+"address":[
+"عنوان",
+"العنوان"
+],
+"advertising/billboard":[
+"لوحة"
+],
+"advertising/column":[
+"عمود إعلاني"
+],
+"aerialway":[
+"ميزة طيران"
+],
+"aerialway/cable_car":[
+"تلفريك",
+"تلفريك، معبر هوائي، مصعد هوائي"
+],
+"aerialway/chair_lift":[
+"مصعد تزلج",
+"مصعد تزلج، تلسياج"
+],
+"aerialway/goods":[
+"نقل البضائع بالكابلات ",
+"نقل البضائع بالكابلات"
+],
+"aerialway/pylon":[
+"برج التلفريك / المصعد التزلج",
+"برج التلفريك ; المصعد التزلج"
+],
+"aeroway":[
+"ميزة Aeroway"
+],
+"aeroway/aerodrome":[
+"مطار"
+],
+"aeroway/gate":[
+"بوابة المطار"
+],
+"aeroway/hangar":[
+"حظائر الطائرات",
+"حظيرة الطائرات"
+],
+"aeroway/helipad":[
+"مهبط للطائرات العمودية",
+"مهبط الهليكوبتر"
+],
+"aeroway/runway":[
+"مدرج إقلاع وهبوط",
+"مدرج المطار",
+"مدرج الطائر"
+],
+"aeroway/taxiway":[
+"طريق للمدرج",
+"طريق تدريج الطائرات"
+],
+"aeroway/terminal":[
+"محطة المطار"
+],
+"amenity":[
+"مرفق"
+],
+"amenity/animal_boarding":[
+"منشأة رعاية حيوانات"
+],
+"amenity/animal_breeding":[
+"منشأة تربية وبيع حيوانات"
+],
+"amenity/animal_shelter":[
+"مأوى حيوانات",
+"مأوى حيوانات; ملجأ"
+],
+"amenity/arts_centre":[
+"مركز فنون",
+"مركز الفنون، معرض الفن، ساحة عرض، ملتقى فني"
+],
+"amenity/atm":[
+"صراف آلي",
+"ماكينة سحب"
+],
+"amenity/bank":[
+"مصرف",
+"بنك"
+],
+"amenity/bar":[
+"خمَّارَة",
+"مَشْرَب",
+"بار",
+"حانة"
+],
+"amenity/bbq":[
+"مكان مخصص للشواء",
+"شواء، باربيكيو"
+],
+"amenity/bench":[
+"مقعد",
+"مقعد طويل"
+],
+"amenity/bicycle_parking":[
+"موقف دراجات هوائية; موقف; دراجة; دراجات",
+"موقف دراجات هوائية"
+],
+"amenity/bicycle_parking/building":[
+"مرآب وقوف دراجات"
+],
+"amenity/bicycle_rental":[
+"تأجير دراجات هوائية; تأجير; دراجة; دراجات; هوائي; هوائية",
+"تأجير دراجات"
+],
+"amenity/bicycle_repair_station":[
+"دراجات هوائية; دراجة; اصلاح; تصليح دراجات; تصليح",
+"ورشة إصلاح دراجات هوائية"
+],
+"amenity/boat_rental":[
+"محل استئجار قوارب",
+"تأجير القوارب، ساحة الزوارق، تأجير زوارق"
+],
+"amenity/bureau_de_change":[
+"تحويل أموال"
+],
+"amenity/bus_station":[
+"محطة حافلات"
+],
+"amenity/cafe":[
+"ناد ليلي",
+"مقهى",
+"مطعم"
+],
+"amenity/car_rental":[
+"محل استئجار السيارات",
+"محل إيجار سيارات"
+],
+"amenity/car_sharing":[
+"محطة مشاركة السيارات"
+],
+"amenity/car_wash":[
+"غسيل السيارات",
+"غسيل سيارات"
+],
+"amenity/casino":[
+"كازينو"
+],
+"amenity/charging_station":[
+"محطة شحن"
+],
+"amenity/childcare":[
+"رعاية الأطفال",
+"رعاية الأطفال; حضانة"
+],
+"amenity/cinema":[
+"صالة سينما",
+"دار السينما",
+"سينما"
+],
+"amenity/clinic":[
+"عيادة",
+"عيادة; مستوصف"
+],
+"amenity/clinic/abortion":[
+"عيادة الإجهاض"
+],
+"amenity/clinic/fertility":[
+"عيادة الخصوبة"
+],
+"amenity/clock":[
+"ساعة"
+],
+"amenity/college":[
+"أرض كلية"
+],
+"amenity/community_centre":[
+"مركز اجتماعي"
+],
+"amenity/compressed_air":[
+"هواء مضغوط"
+],
+"amenity/courthouse":[
+"مجمع محاكم",
+"دار عدل",
+"دار قضاء",
+"محكمة"
+],
+"amenity/coworking_space":[
+"مساحة عمل مشتركة"
+],
+"amenity/crematorium":[
+"محرقة فرن لاحراق الجث"
+],
+"amenity/dentist":[
+"طبيب أسنان"
+],
+"amenity/dive_centre":[
+"مركز الغوص"
+],
+"amenity/doctors":[
+"طبيب"
+],
+"amenity/dojo":[
+"دوجو /  أكاديمية الفنون القتالية",
+"دوجو; أكاديمية الفنون القتالية"
+],
+"amenity/drinking_water":[
+"ماء الشرب",
+"مياه شرب"
+],
+"amenity/driving_school":[
+"مدرسة تعليم القيادة"
+],
+"amenity/embassy":[
+"سفارة"
+],
+"amenity/events_venue":[
+"مكان الأحداث"
+],
+"amenity/fast_food":[
+"مأكولات سريعة",
+"وجبات سريعة"
+],
+"amenity/fast_food/burger":[
+"برجر وجبة سريعة",
+"إفطار",
+"عشاء",
+"طعام"
+],
+"amenity/fast_food/chicken":[
+"إفطار",
+"مقصف",
+"عشاء",
+"طعام",
+"دجاج وجبة سريعة"
+],
+"amenity/fast_food/donut":[
+"دونات وجبة سريعة",
+"دونات"
+],
+"amenity/fast_food/fish_and_chips":[
+"سمك ورقائق بطاطس وجبة سريعة",
+"إفطار",
+"قهوة",
+"عشاء",
+"طعام"
+],
+"amenity/fast_food/ice_cream":[
+"أيس كريم وجبة سريعة"
+],
+"amenity/fast_food/kebab":[
+"كباب وجبة سريعة",
+"إفطار",
+"مقصف",
+"عشاء",
+"طعام"
+],
+"amenity/fast_food/mexican":[
+"مكسيكي",
+"طعام مكسيكي وجبة سريعة"
+],
+"amenity/fast_food/pizza":[
+"إفطار",
+"مقصف",
+"عشاء",
+"طعام",
+"بيتزا وجبات سريعة"
+],
+"amenity/fast_food/sandwich":[
+"إفطار",
+"شطيرة وجبات سريعة",
+"مقصف",
+"عشاء",
+"طعام"
+],
+"amenity/fire_station":[
+"محطة إطفاء",
+"محطة إطفاء حريق"
+],
+"amenity/food_court":[
+"قاعة طعام",
+"وجبات سريعة",
+"طعام",
+"مطعم"
+],
+"amenity/fountain":[
+"نافورة"
+],
+"amenity/fuel":[
+"محطة بترول",
+"محطة غاز",
+"محطة وقود"
+],
+"amenity/grave_yard":[
+"مقبرة",
+"مدفن"
+],
+"amenity/hospital":[
+"أرض مستشفى",
+"أرض مستشفى; مستشفى"
+],
+"amenity/ice_cream":[
+"محل بيع المثلجات",
+"مثلجات"
+],
+"amenity/internet_cafe":[
+"مقهى إنترنت"
+],
+"amenity/kindergarten":[
+"مرحلة ما قبل المدرسة / رياض الأطفال"
+],
+"amenity/language_school":[
+"مدرسة لغات"
+],
+"amenity/library":[
+"مكتبة"
+],
+"amenity/marketplace":[
+"ساحة السوق",
+"سوق",
+"محل تسوق",
+"سوق تجارية"
+],
+"amenity/motorcycle_parking":[
+"موقف دراجات نارية",
+"دراجة نارية",
+"دراجة بخارية; موقف; مواقف; ركن"
+],
+"amenity/music_school":[
+"مدرسة موسيقى"
+],
+"amenity/nightclub":[
+"كباريه",
+"ملهى ليلي"
+],
+"amenity/nursing_home":[
+"دار التمريض"
+],
+"amenity/parking":[
+"ساحة انتظار سيارات"
+],
+"amenity/parking/multi-storey":[
+"مرآب",
+"مرآب وقوف متعدد الطوابق",
+"جراج"
+],
+"amenity/parking/underground":[
+"موقف تحت الأرض",
+"جراج"
+],
+"amenity/parking_space":[
+"موقف سيارات"
+],
+"amenity/payment_centre":[
+"مركز دفع نقود"
+],
+"amenity/payment_terminal":[
+"محطة دفع نقود"
+],
+"amenity/pharmacy":[
+"شباك صيدلية"
+],
+"amenity/place_of_worship":[
+"محل عبادة",
+"مكان عبادة"
+],
+"amenity/place_of_worship/buddhist":[
+"معبد بوذي"
+],
+"amenity/place_of_worship/christian":[
+"كنيسية مسيحية"
+],
+"amenity/place_of_worship/hindu":[
+"معبد هندوسي"
+],
+"amenity/place_of_worship/jewish":[
+"كنيس يهودي"
+],
+"amenity/place_of_worship/muslim":[
+"مسجد",
+"مصلى",
+"مسلمين",
+"جامع",
+"صلاة",
+"مسلم"
+],
+"amenity/place_of_worship/shinto":[
+"ضريح شنتو"
+],
+"amenity/place_of_worship/sikh":[
+"معبد السيخ"
+],
+"amenity/place_of_worship/taoist":[
+"معبد طاوي"
+],
+"amenity/planetarium":[
+"قبة فلكية، قبة سماوية، بلانتاريوم",
+"قبة فلكية"
+],
+"amenity/police":[
+"مركز الشرطة",
+"شرطة",
+"الشرطة"
+],
+"amenity/post_box":[
+"صندوق البريد"
+],
+"amenity/post_office":[
+"مكتب البريد",
+"مكتب بريد",
+"دائرة البريد"
+],
+"amenity/prison":[
+"سجن"
+],
+"amenity/pub":[
+"مشرب",
+"حانة",
+"خمارة"
+],
+"amenity/public_bath":[
+"حمام عام"
+],
+"amenity/public_bookcase":[
+"خزانة كتب عامة"
+],
+"amenity/ranger_station":[
+"محطة الحراسة"
+],
+"amenity/recycling":[
+"إعادة التدوير"
+],
+"amenity/recycling_centre":[
+"مركز إعادة تدوير"
+],
+"amenity/recycling_container":[
+"حاوية إعادة التدوير"
+],
+"amenity/restaurant":[
+"مطعم"
+],
+"amenity/restaurant/american":[
+"مطعم امريكي"
+],
+"amenity/restaurant/asian":[
+"مطعم آسيوي"
+],
+"amenity/restaurant/chinese":[
+"مطعم صيني"
+],
+"amenity/restaurant/french":[
+"مطعم فرنسي"
+],
+"amenity/restaurant/german":[
+"مطعم ألماني"
+],
+"amenity/restaurant/greek":[
+"مطعم يوناني"
+],
+"amenity/restaurant/indian":[
+"مطعم هندي"
+],
+"amenity/restaurant/italian":[
+"مطعم إيطالي"
+],
+"amenity/restaurant/japanese":[
+"مطعم ياباني"
+],
+"amenity/restaurant/mexican":[
+"مطعم مكسيكي"
+],
+"amenity/restaurant/noodle":[
+"مطعم مكرونة"
+],
+"amenity/restaurant/pizza":[
+"مطعم بيتزا"
+],
+"amenity/restaurant/seafood":[
+"مطعم مأكولات بحرية"
+],
+"amenity/restaurant/steakhouse":[
+"بيت شرائح اللحم"
+],
+"amenity/restaurant/sushi":[
+"مطعم سوشي"
+],
+"amenity/restaurant/thai":[
+"مطعم تايلاندي"
+],
+"amenity/restaurant/turkish":[
+"مطعم تركي"
+],
+"amenity/restaurant/vietnamese":[
+"مطعم فيتنامي"
+],
+"amenity/school":[
+"أرض مدرسة",
+"مدرسة"
+],
+"amenity/shelter":[
+"ملجأ",
+"وقاء",
+"ملاذ",
+"مأوى",
+"سقيفة"
+],
+"amenity/shower":[
+"دش استحمام"
+],
+"amenity/smoking_area":[
+"منطقة مخصصة للتدخين"
+],
+"amenity/social_facility":[
+"مؤسسة اجتماعية"
+],
+"amenity/social_facility/food_bank":[
+"بنك الطعام"
+],
+"amenity/social_facility/group_home":[
+"دار المسنين"
+],
+"amenity/social_facility/homeless_shelter":[
+"ملجأ مشردين، مأوى",
+"ملجأ مشردين"
+],
+"amenity/social_facility/nursing_home":[
+"دار التمريض"
+],
+"amenity/studio":[
+"أستوديو",
+"أستوديو; إذاعة; راديو; تلفزيون"
+],
+"amenity/taxi":[
+"موقف تاكسي",
+"موقف أجرة"
+],
+"amenity/telephone":[
+"هاتف"
+],
+"amenity/theatre":[
+"مسرح"
+],
+"amenity/theatre/type/amphi":[
+"مسرح روماني"
+],
+"amenity/toilets":[
+"دورات مياه",
+"مراحيض"
+],
+"amenity/townhall":[
+"البلدية",
+"مبنى البلدية"
+],
+"amenity/university":[
+"أرض جامعة",
+"حرم جامعي"
+],
+"amenity/vehicle_inspection":[
+"فحص مركبات"
+],
+"amenity/vending_machine":[
+"آلة بيع"
+],
+"amenity/vending_machine/cigarettes":[
+"آلة بيع سجائر",
+"سجائر"
+],
+"amenity/vending_machine/coffee":[
+"آلة بيع قهوة",
+"قهوة"
+],
+"amenity/vending_machine/condoms":[
+"آلة بيع واقي ذكري"
+],
+"amenity/vending_machine/drinks":[
+"مشروبات",
+"آلة بيع مشروبات"
+],
+"amenity/vending_machine/electronics":[
+"آلة بيع إلكترونيات"
+],
+"amenity/vending_machine/elongated_coin":[
+"آلة بيع عُملة مسطحة"
+],
+"amenity/vending_machine/excrement_bags":[
+"موزع حقائب الفضلات"
+],
+"amenity/vending_machine/food":[
+"آلة بيع مواد غذائية"
+],
+"amenity/vending_machine/fuel":[
+"جاز",
+"وقود",
+"سولار",
+"غاز",
+"بترول",
+"مضخة وقود"
+],
+"amenity/vending_machine/ice_cream":[
+"آلة بيع آيس كريم"
+],
+"amenity/vending_machine/newspapers":[
+"آلة بيع جرائد",
+"جرائد"
+],
+"amenity/vending_machine/parking_tickets":[
+"ماكينة تذاكر",
+"ماكينة بيع تذاكر وقوف"
+],
+"amenity/vending_machine/public_transport_tickets":[
+"آلة بيع تذاكر العبور"
+],
+"amenity/vending_machine/sweets":[
+"آلة بيع الوجبات الخفيفة"
+],
+"amenity/veterinary":[
+"طبيب بيطري",
+"بيطري، طبيب حيوانات"
+],
+"amenity/waste_basket":[
+"سلة القمامة",
+"سلة المهملات",
+"سلة مهملات",
+"قمامة",
+"مهملات"
+],
+"amenity/waste_disposal":[
+"صندوق قمامة قابل للنقل"
+],
+"amenity/waste_transfer_station":[
+"محطة نقل النفايات",
+"قمامة",
+"نفايات",
+"مهملات"
+],
+"amenity/water_point":[
+"RV مياه الشرب"
+],
+"amenity/watering_place":[
+"مكان شرب للحيوانات"
+],
+"area":[
+"منطقة",
+"المساحة; مساحة; منطقة; المنطقة"
+],
+"attraction/big_wheel":[
+"دولاب هواء; العجلة الكبيرة",
+"دولاب هواء"
+],
+"attraction/carousel":[
+"دوامة خيل"
+],
+"attraction/maze":[
+"متاهة"
+],
+"attraction/roller_coaster":[
+"سفينة دوارة",
+"السفينة الدوارة"
+],
+"attraction/water_slide":[
+"التزلق على الماء"
+],
+"barrier":[
+"مدينة محصنة",
+"حاجز",
+"عائق",
+"تخم",
+"قلعة محصنة",
+"مزلقان"
+],
+"barrier/block":[
+"كتلة حجرية",
+"عائق",
+"كتلة"
+],
+"barrier/bollard":[
+"عمود صلب"
+],
+"barrier/border_control":[
+"معبر حدودي"
+],
+"barrier/cattle_grid":[
+"شبكة لمنع الماشية",
+"شبكة الماشية"
+],
+"barrier/chain":[
+"سلسلة"
+],
+"barrier/city_wall":[
+"جدار المدينة; سور",
+"جدار المدينة"
+],
+"barrier/cycle_barrier":[
+"حاجز دراجات هوائية",
+"حاجز دراجات هوائية; حاجز; ممر; حاجز مرور; حاجز دراجات"
+],
+"barrier/ditch":[
+"خندق"
+],
+"barrier/entrance":[
+"مدخل"
+],
+"barrier/fence":[
+"سياج"
+],
+"barrier/gate":[
+"بوابة"
+],
+"barrier/hedge":[
+"سياج نباتي"
+],
+"barrier/kissing_gate":[
+"بوابة منع الماشية"
+],
+"barrier/lift_gate":[
+"بوابة الرافعة"
+],
+"barrier/retaining_wall":[
+"جدار تثبيت"
+],
+"barrier/stile":[
+"مرقى عبور",
+"عضادة"
+],
+"barrier/toll_booth":[
+"مكتب رسوم العبور",
+"كشك التحصيل"
+],
+"barrier/wall":[
+"جدار"
+],
+"boundary/administrative":[
+"حدود إدارية"
+],
+"building":[
+"مبنى"
+],
+"building/apartments":[
+"مبنى شقق سكنية"
+],
+"building/barn":[
+"حظيرة",
+"مخزن; اسطبل"
+],
+"building/bunker":[
+"ملجأ محصّن"
+],
+"building/cabin":[
+"كوخ"
+],
+"building/cathedral":[
+"مبنى كاتدرائية"
+],
+"building/chapel":[
+"مبنى معبد"
+],
+"building/church":[
+"مبنى كنيسة",
+"كنيسة",
+"معبد"
+],
+"building/college":[
+"كلية",
+"مبنى كلية",
+"جامعة"
+],
+"building/commercial":[
+"مبنى تجاري",
+"مبني تجاري"
+],
+"building/construction":[
+"مبنى تحت الإنشاء",
+"تحت الانشاء"
+],
+"building/detached":[
+"مستقل; منفصل",
+"منزل منفصل"
+],
+"building/dormitory":[
+"مهجع; سكن; سكن جامعي",
+"سكن مجمع"
+],
+"building/entrance":[
+"مدخل ومخرج"
+],
+"building/farm":[
+"ريف",
+"زرع",
+"مزرعة",
+"بيت ريفي"
+],
+"building/farm_auxiliary":[
+"ريف",
+"مزرعة",
+"مبنى مزرعة"
+],
+"building/garage":[
+"كراج",
+"تصليح سيارات",
+"مَرْأب",
+"جراج"
+],
+"building/garages":[
+"جراجات",
+"جراج; جراج سيارات; موقف; موقف سيارات; ركن; ركنة"
+],
+"building/greenhouse":[
+"دفيئة زراعية",
+"دفيئة زراعية; بيت بلاستيكي; بيت زجاجي"
+],
+"building/hospital":[
+"مستشفى; مبنى مستشفى",
+"مبنى مستشفى"
+],
+"building/hotel":[
+"فندق",
+"مبنى فندق"
+],
+"building/house":[
+"منزل",
+"بيت"
+],
+"building/hut":[
+"كوخ",
+"كوخ; قش"
+],
+"building/industrial":[
+"مبنى صناعي"
+],
+"building/kindergarten":[
+"مبنى الحضانة / رياض الأطفال"
+],
+"building/mosque":[
+"مبنى المسجد"
+],
+"building/public":[
+"مبنى عمومي",
+"عام; عمومي"
+],
+"building/residential":[
+"مبنى سكني"
+],
+"building/retail":[
+"تجزئة",
+"مبنى بيع بالتجزئة"
+],
+"building/roof":[
+"سقف",
+"غطاء"
+],
+"building/school":[
+"مبنى مدرسة"
+],
+"building/semidetached_house":[
+"مبنى شبه منفصل"
+],
+"building/shed":[
+"سقيفة; بيت",
+"سقيفة"
+],
+"building/stable":[
+"إسطبل"
+],
+"building/stadium":[
+"مبنى الملعب"
+],
+"building/static_caravan":[
+"منزل متحرك ثابت"
+],
+"building/temple":[
+"مبنى المعبد"
+],
+"building/terrace":[
+"صف منازل"
+],
+"building/train_station":[
+"مبنى محطة القطار"
+],
+"building/transportation":[
+"مبنى للنقل العام"
+],
+"building/university":[
+"جامعة; كلية",
+"مبنى جامعي"
+],
+"building/warehouse":[
+"مستودع; مخزن",
+"مستودع"
+],
+"club":[
+"نادي"
+],
+"craft":[
+"حرفة"
+],
+"craft/basket_maker":[
+"صانع السلال"
+],
+"craft/beekeeper":[
+"نحال",
+"مربي النحل"
+],
+"craft/blacksmith":[
+"حدّاد"
+],
+"craft/boatbuilder":[
+"بنّاء السفن"
+],
+"craft/bookbinder":[
+"مجلد الكتب"
+],
+"craft/brewery":[
+"بيرة; جعة",
+"مصنع بيرة"
+],
+"craft/carpenter":[
+"نجار"
+],
+"craft/caterer":[
+"منظم حفلات",
+"منظم حفلات; متعهد حفلات;حفلة;حفلات"
+],
+"craft/clockmaker":[
+"ساعاتي"
+],
+"craft/confectionery":[
+"حلواني"
+],
+"craft/electrician":[
+"كهربائي"
+],
+"craft/electronics_repair":[
+"خدمة تصليح الأجهزة الإلكترونية"
+],
+"craft/gardener":[
+"بستاني"
+],
+"craft/locksmith":[
+"قفال - صانع أقفال"
+],
+"craft/painter":[
+"دهّان"
+],
+"craft/photographer":[
+"مصور"
+],
+"craft/photographic_laboratory":[
+"مختبر التصوير"
+],
+"craft/plumber":[
+"سباك",
+"سباك; سمكري"
+],
+"craft/roofer":[
+"بنّاء السقف"
+],
+"craft/saddler":[
+"صانع سراج"
+],
+"craft/sailmaker":[
+"صانع أشرعة"
+],
+"craft/sawmill":[
+"منشرة"
+],
+"craft/scaffolder":[
+"مركب السقالة"
+],
+"craft/sculptor":[
+"نحّات"
+],
+"craft/shoemaker":[
+"إسكافي"
+],
+"craft/stonemason":[
+"مهنة البناء"
+],
+"craft/tailor":[
+"خياط"
+],
+"craft/tiler":[
+"مركِّب البلاط"
+],
+"craft/tinsmith":[
+"سمكري"
+],
+"craft/upholsterer":[
+"منجد; تنجيد; أثاث",
+"منجد"
+],
+"craft/watchmaker":[
+"ساعاتي (ساعات يدوية)",
+"ساعاتي"
+],
+"craft/window_construction":[
+"بناء النوافذ"
+],
+"embankment":[
+"سد"
+],
+"emergency/ambulance_station":[
+"محطة إسعاف",
+"محطة اسعاف"
+],
+"emergency/defibrillator":[
+"مزيل الرجفان"
+],
+"emergency/designated":[
+"محدد لدخول الطوارئ"
+],
+"emergency/destination":[
+"وجهة وصول الطوارئ"
+],
+"emergency/fire_hydrant":[
+"خرطوم; مطافئ; إطفاء; اطفاء",
+"خرطوم إطفاء"
+],
+"emergency/no":[
+"وصول الطوارئ لا"
+],
+"emergency/official":[
+"وصول الطوارئ رسمي"
+],
+"emergency/phone":[
+"هاتف طوارئ"
+],
+"emergency/private":[
+"وصول الطوارئ خاص"
+],
+"emergency/yes":[
+"وصول الطوارئ نعم"
+],
+"entrance":[
+"مدخل / مخرج"
+],
+"ford":[
+"ممر مائي",
+"ممر مائي; ممر; مائي; ماء"
+],
+"golf/bunker":[
+"فخ الرمال"
+],
+"golf/fairway":[
+"ممر مائي"
+],
+"golf/green":[
+"وضع الأخضر"
+],
+"golf/hole":[
+"ثقب الجولف"
+],
+"golf/rough":[
+"الخام"
+],
+"golf/tee":[
+"مربع الإنطلاق"
+],
+"healthcare":[
+"مرفق الرعاية الصحية"
+],
+"healthcare/alternative":[
+"متخصص في الطب البديل"
+],
+"healthcare/alternative/chiropractic":[
+"المعالج للأمراض يدويا; مقوم العظام",
+"المعالج للأمراض يدويا"
+],
+"healthcare/audiologist":[
+"أخصائي السمع"
+],
+"healthcare/blood_donation":[
+"تبرع بالدم",
+"مركز التبرع بالدم"
+],
+"healthcare/laboratory":[
+"مختبر طبي; مخبر التحاليل الطبية",
+"مختبر طبي"
+],
+"healthcare/occupational_therapist":[
+"أخصائي العلاج الوظيفي"
+],
+"healthcare/optometrist":[
+"أخصائي البصريات"
+],
+"healthcare/physiotherapist":[
+"أخصائي العلاج الطبيعي"
+],
+"healthcare/podiatrist":[
+"طبيب الأقدام; الأرجل",
+"طبيب الأقدام"
+],
+"healthcare/psychotherapist":[
+"معالج نفسي"
+],
+"healthcare/rehabilitation":[
+"مركز إعادة التأهيل"
+],
+"healthcare/speech_therapist":[
+"معالج النطق",
+"معالج النطق، نطق"
+],
+"highway":[
+"ميزة طريق سريع"
+],
+"highway/bridleway":[
+"طريق الخيول",
+"ممر للخيول"
+],
+"highway/bus_stop":[
+"موقف حافلة"
+],
+"highway/corridor":[
+"ممر داخلي; رواق",
+"ممر داخلي"
+],
+"highway/cycleway":[
+"طريق دراجات; مسار دراجات",
+"مسار دراجات"
+],
+"highway/elevator":[
+"مصعد"
+],
+"highway/footway":[
+"طريق مشي بالأقدام",
+"ممشى بالأقدام"
+],
+"highway/give_way":[
+"إشارة "أفسح الطريق"",
+"أفسح الطريق"
+],
+"highway/living_street":[
+"شارع سكني"
+],
+"highway/mini_roundabout":[
+"دوار صغير"
+],
+"highway/motorway":[
+"طريق سريع"
+],
+"highway/motorway_junction":[
+"محول طريق سيار / مخرج"
+],
+"highway/motorway_link":[
+"رابط لطريق سريع"
+],
+"highway/path":[
+"درب",
+"طريق",
+"ممر",
+"مسلك"
+],
+"highway/pedestrian_area":[
+"منطقة للمشاة"
+],
+"highway/pedestrian_line":[
+"شارع للمشاة"
+],
+"highway/primary":[
+"شارع رئيسي",
+"طريق رئيسي"
+],
+"highway/primary_link":[
+"رابط لطريق رئيسي"
+],
+"highway/raceway":[
+"مضمار سباق السيارات"
+],
+"highway/residential":[
+"طريق سكني",
+"شارع سكني"
+],
+"highway/rest_area":[
+"راحة; نوم; استريح",
+"منطقة استراحة"
+],
+"highway/road":[
+"طريق غير معروف"
+],
+"highway/secondary":[
+"طريق ثانوي",
+"شارع ثانوي"
+],
+"highway/secondary_link":[
+"رابط لطريق ثانوي",
+"رابط لشارع ثانوي"
+],
+"highway/service":[
+"طريق خدمة",
+"شارع خدمي; طريق خدمة"
+],
+"highway/service/alley":[
+"زقاق"
+],
+"highway/service/drive-through":[
+"ممر الطلب بالسيارة"
+],
+"highway/service/driveway":[
+"ممر السكن"
+],
+"highway/service/emergency_access":[
+"ممر الطوارئ"
+],
+"highway/service/parking_aisle":[
+"ممر وقوف السيارات"
+],
+"highway/services":[
+"خدمة سيارات; منطقة خدمة سيارات; منطقة خدمية",
+"منطقة خدمة"
+],
+"highway/speed_camera":[
+"كاميرا مراقبة السرعة"
+],
+"highway/steps":[
+"درج"
+],
+"highway/steps/conveying":[
+"سلم متحرك",
+"سلم كهربائي"
+],
+"highway/stop":[
+"إشارة توقف",
+"إشارة توقف، ممنوع الوقوف، قف"
+],
+"highway/street_lamp":[
+"مصباح الشارع"
+],
+"highway/tertiary":[
+"شارع ثالثي",
+"طريق ثالثي"
+],
+"highway/tertiary_link":[
+"رابط لشارع ثالثي",
+"رابط لطريق ثالثي"
+],
+"highway/track":[
+"طريق غير ممهد ; غير ممهد",
+"مسار طريق غير ممهد"
+],
+"highway/traffic_mirror":[
+"مرآة; مرور; مراية",
+"مرآة مرور"
+],
+"highway/traffic_signals":[
+"إشارات مرور",
+"اشارة; اشارات; اشارة مرور"
+],
+"highway/trunk":[
+"طريق أساسي",
+"شارع أساسي"
+],
+"highway/trunk_link":[
+"رابط لشارع أساسي",
+"رابط لطريق أساسي"
+],
+"highway/turning_circle":[
+"دائرة رجوع"
+],
+"highway/unclassified":[
+"طريق غير مصنف"
+],
+"historic":[
+"موقع تاريخي",
+"موقع تأريخي"
+],
+"historic/archaeological_site":[
+"موقع أثري"
+],
+"historic/boundary_stone":[
+"صخرة حدودية"
+],
+"historic/castle":[
+"حصن; قلعة; قصر",
+"حصن / قلعة"
+],
+"historic/memorial":[
+"نصب تذكاري"
+],
+"historic/monument":[
+"مبنى تذكاري",
+"نصب تذكاري"
+],
+"historic/ruins":[
+"آثار",
+"أطلال"
+],
+"historic/tomb":[
+"قبر / ضريح",
+"قبر، ضريح"
+],
+"historic/wayside_cross":[
+"تقاطع جانب الطريق"
+],
+"historic/wayside_shrine":[
+"مقام نصراني على الطريق"
+],
+"junction":[
+"مفترق طرق"
+],
+"landuse":[
+"ميزة استخدام الأراضي"
+],
+"landuse/aquaculture":[
+"مزرعة سمكية"
+],
+"landuse/basin":[
+"حوض"
+],
+"landuse/cemetery":[
+"جبانة",
+"مقبرة",
+"مدفن"
+],
+"landuse/commercial":[
+"تجارية; تجاري; منطقة تجارة",
+"منطقة تجارية"
+],
+"landuse/construction":[
+"منطقة بناء"
+],
+"landuse/farm":[
+"أرض زراعية"
+],
+"landuse/farmland":[
+"أرض زراعية، فلاحة",
+"أرض زراعية"
+],
+"landuse/farmyard":[
+"فناء المزرعة"
+],
+"landuse/forest":[
+"الغابات المدارة"
+],
+"landuse/grass":[
+"عشب",
+"غطاء أخضر"
+],
+"landuse/greenhouse_horticulture":[
+"الدفيئات الزراعية"
+],
+"landuse/harbour":[
+"مرفأ، ميناء",
+"مرفأ"
+],
+"landuse/industrial":[
+"صناعية; صناعي; صناعات; منطقة صناعات; منطقة صناعة; صناعة; صنع",
+"منطقة صناعية"
+],
+"landuse/industrial/scrap_yard":[
+"مقبرة السيارات"
+],
+"landuse/industrial/slaughterhouse":[
+"مسلخ"
+],
+"landuse/landfill":[
+"مكب نفايات"
+],
+"landuse/meadow":[
+"روضة",
+"مخضرة",
+"مرج"
+],
+"landuse/orchard":[
+"بستان",
+"أشجار البستان",
+"بيارة"
+],
+"landuse/plant_nursery":[
+"مشتل"
+],
+"landuse/quarry":[
+"محجر"
+],
+"landuse/railway":[
+"منطقة السكك الحديدية"
+],
+"landuse/recreation_ground":[
+"ميدان الألعاب"
+],
+"landuse/residential":[
+"منطقة سكنية",
+"منطقة سكانية; سكان; سكنية; سكن; منطقة سكن"
+],
+"landuse/retail":[
+"بيع قطاعي",
+"منطقة بيع بالتجزئة",
+"بيع بالتجزئة"
+],
+"landuse/vineyard":[
+"مزرعة عنب",
+"مزرعة العنب"
+],
+"leisure":[
+"ميزة الترفيه"
+],
+"leisure/beach_resort":[
+"منتجع الشاطئ"
+],
+"leisure/bowling_alley":[
+"بولينغ",
+"بولينغ، بولينج"
+],
+"leisure/common":[
+"أرض مشترك ",
+"مشّاع، متعارف عليه، شعبي، شائع"
+],
+"leisure/dance":[
+"قاعة الرقص"
+],
+"leisure/dancing_school":[
+"مدرسة الرقص"
+],
+"leisure/dog_park":[
+"حديقة كلاب"
+],
+"leisure/firepit":[
+"حفرة نار"
+],
+"leisure/fitness_centre":[
+"مركز اللياقة البدنية",
+"مركز اللياقة البدنية، نادي صحي"
+],
+"leisure/fitness_centre/yoga":[
+"استوديو يوجا"
+],
+"leisure/fitness_station":[
+"محطة اللياقة البدنية في الهواء الطلق"
+],
+"leisure/garden":[
+"حديقة"
+],
+"leisure/golf_course":[
+"معلب جولف",
+"معلب جولف، غولف"
+],
+"leisure/horse_riding":[
+"منشأة ركوب خيل",
+"منشأة ركوب خيل; خيل; ركوب خيل; امتطاء; امتطاء خيل; منشأة"
+],
+"leisure/ice_rink":[
+"تزلج",
+"حلبة تزلج",
+"جليد",
+"حلبة"
+],
+"leisure/marina":[
+"رصيف سفن",
+"حوض سفن",
+"مرسى السفن",
+"مرسى سفن"
+],
+"leisure/miniature_golf":[
+"ملعب الجولف المصغرة، غولف",
+"ملعب الجولف المصغرة"
+],
+"leisure/nature_reserve":[
+"محمية طبيعية"
+],
+"leisure/park":[
+"منتزه، حديقة",
+"منتزه"
+],
+"leisure/picnic_table":[
+"طاولة النزهة"
+],
+"leisure/pitch":[
+"ملعب رياضي"
+],
+"leisure/pitch/american_football":[
+"ملعب كرة قدم أمريكية"
+],
+"leisure/pitch/badminton":[
+"تنس",
+"كرة",
+"ريشة",
+"تنس الريشة"
+],
+"leisure/pitch/baseball":[
+"ملعب البيسبول"
+],
+"leisure/pitch/basketball":[
+"ملعب كرة السلة"
+],
+"leisure/pitch/beachvolleyball":[
+"ملعب كرة الطائرة الشاطئية",
+"ملعب"
+],
+"leisure/pitch/boules":[
+"ملعب كرة حديدية"
+],
+"leisure/pitch/cricket":[
+"ملعب كريكت"
+],
+"leisure/pitch/equestrian":[
+"حلبة; ساحة; حلبة ركوب; ساحة ركوب; خيل; ركوب خيل",
+"حلبة ركوب خيل"
+],
+"leisure/pitch/netball":[
+"تنس",
+"سلة",
+"كرة",
+"شبكة",
+"كرة السلة"
+],
+"leisure/pitch/rugby_league":[
+"ملعب اتحاد الرغبي، رجبي",
+"ملعب اتحاد الرغبي"
+],
+"leisure/pitch/rugby_union":[
+"ملعب دوري الرغبي",
+"ملعب دوري الرغبي، رجبي"
+],
+"leisure/pitch/skateboard":[
+"حديقة تزلج، ساحة تزلج",
+"حديقة تزلج"
+],
+"leisure/pitch/soccer":[
+"ملعب كرة القدم"
+],
+"leisure/pitch/table_tennis":[
+"طاولة كرة المضرب"
+],
+"leisure/pitch/tennis":[
+"معلب كرة التنس",
+"ملعب تنس"
+],
+"leisure/pitch/volleyball":[
+"ملعب كرة الطائرة",
+"ملعب"
+],
+"leisure/playground":[
+"ساحة ألعاب للأطفال"
+],
+"leisure/resort":[
+"منتجع"
+],
+"leisure/sauna":[
+"سونا"
+],
+"leisure/slipway":[
+"مزلقة سفن"
+],
+"leisure/sports_centre":[
+"مركز رياضي",
+"مركز رياضي; نادي رياضي; مجمع رياضي"
+],
+"leisure/sports_centre/swimming":[
+"مبنى حوض سباحة",
+"حمام سباحة; حوض سباحة; حمام; حوض; سباحة; مسبح"
+],
+"leisure/stadium":[
+"مدرج; مدرج للألعاب الرياضية; استاد رياضي; استاد",
+"استاد رياضي"
+],
+"leisure/swimming_pool":[
+"حمام سباحة; حوض سباحة; حمام; حوض; سباحة; مسبح",
+"حوض سباحة"
+],
+"leisure/track":[
+"مضمار سباق"
+],
+"leisure/water_park":[
+"ملاهي مائية",
+"ملاهي مائية; حديقة مائية; منتزه مائي"
+],
+"line":[
+"طريق"
+],
+"man_made":[
+"ميزة من صنع الانسان"
+],
+"man_made/adit":[
+"مدخل; منجم; كهف;",
+"مدخل منجم"
+],
+"man_made/breakwater":[
+"كاسر الأمواج"
+],
+"man_made/bridge":[
+"منطقة جسر"
+],
+"man_made/chimney":[
+"مدخنة"
+],
+"man_made/crane":[
+"رافعة"
+],
+"man_made/cutline":[
+"خط الفصل"
+],
+"man_made/embankment":[
+"سد"
+],
+"man_made/flagpole":[
+"سارية العلم"
+],
+"man_made/gasometer":[
+"مقياس الغاز"
+],
+"man_made/lighthouse":[
+"منارة",
+"فنارة"
+],
+"man_made/monitoring_station":[
+"محطة الرصد"
+],
+"man_made/observatory":[
+"مرصد"
+],
+"man_made/petroleum_well":[
+"بئر نفط",
+"بئر نفط، بترول"
+],
+"man_made/pier":[
+"رصيف بحري"
+],
+"man_made/pipeline":[
+"خط أنابيب"
+],
+"man_made/pumping_station":[
+"محطة ضخ"
+],
+"man_made/silo":[
+"صومعة",
+"صومعة; صومعة غلال"
+],
+"man_made/storage_tank":[
+"خزان"
+],
+"man_made/surveillance":[
+"مراقبة"
+],
+"man_made/survey_point":[
+"نقطة مسح"
+],
+"man_made/tower":[
+"برج"
+],
+"man_made/wastewater_plant":[
+"محطة صرف صحي"
+],
+"man_made/water_tower":[
+"خزان مائي"
+],
+"man_made/water_well":[
+"بئر ماء"
+],
+"man_made/water_works":[
+"محطة مياه"
+],
+"man_made/watermill":[
+"طاحونة مائية"
+],
+"man_made/windmill":[
+"طاحونة هوائية"
+],
+"man_made/works":[
+"مصنع"
+],
+"natural":[
+"ميزة طبيعية"
+],
+"natural/bare_rock":[
+"صخر; صخور; صخر عاري",
+"صخور عارية"
+],
+"natural/bay":[
+"خليج"
+],
+"natural/beach":[
+"شاطئ"
+],
+"natural/cave_entrance":[
+"مدخل كهفي; كهف",
+"مدخل كهف"
+],
+"natural/cliff":[
+"جرف صخري"
+],
+"natural/coastline":[
+"ساحل"
+],
+"natural/fell":[
+"هضبة",
+"هضبة، تلة، مرتفع"
+],
+"natural/glacier":[
+"كتلة جليدية"
+],
+"natural/grassland":[
+"أرض عشبية",
+"مرج",
+"أرض معشوشبة",
+"مرعى"
+],
+"natural/heath":[
+"مرج"
+],
+"natural/mud":[
+"وحل، طين",
+"وحل"
+],
+"natural/peak":[
+"ذروة",
+"قمة"
+],
+"natural/reef":[
+"شعاب"
+],
+"natural/ridge":[
+"نتوء جبلي، قمة جبل",
+"نتوء جبلي"
+],
+"natural/saddle":[
+"ممر جبلي"
+],
+"natural/sand":[
+"رمل"
+],
+"natural/scree":[
+"ركام حجارة، تلة، مجموعة صخور، تلة حصاة",
+"ركام حجارة"
+],
+"natural/scrub":[
+"أراضي الأشجار القمئية",
+"دغل; أدغال; أراضي الأشجار القمئية"
+],
+"natural/spring":[
+"نبع; منبع",
+"نبع"
+],
+"natural/tree":[
+"شجرة"
+],
+"natural/volcano":[
+"بركان"
+],
+"natural/water":[
+"مياه",
+"ماء"
+],
+"natural/water/lake":[
+"بحيرة"
+],
+"natural/water/pond":[
+"بركة"
+],
+"natural/water/reservoir":[
+"خزان مياه",
+"بحيرة تخزين مياه صناعية",
+"بحيرة اصطناعية"
+],
+"natural/wetland":[
+"أرض رطبة; مستنقع; هور",
+"أرض رطبة"
+],
+"natural/wood":[
+"خشب طبيعي"
+],
+"noexit/yes":[
+"لا يوجد مخرج"
+],
+"office":[
+"مكتب"
+],
+"office/accountant":[
+"المحاسب القانوني، المدقق، الحسابات",
+" المحاسب "
+],
+"office/administrative":[
+"مكتب الإداري "
+],
+"office/advertising_agency":[
+"وكالة الإشهار، وكالة إعلانية",
+"وكالة إعلانية"
+],
+"office/architect":[
+" مهندس معماري ",
+"بناء، مباني، مدينة، تعمير"
+],
+"office/association":[
+"جمعية، منظمة غير ربحية",
+"جمعية "
+],
+"office/charity":[
+"منظمة خيرية"
+],
+"office/company":[
+"مكتب شركة",
+"إدارة شركة، إدارة مؤسسة، إدارة عامة"
+],
+"office/coworking":[
+"مساحة عمل مشتركة"
+],
+"office/educational_institution":[
+"مؤسسة تعليمية ",
+"مؤسسة تعليمية، جامعة، كلية، مدرسة"
+],
+"office/employment_agency":[
+"إدارة شؤون الموظفين، مكتب العمل",
+"مكتب التوظيف "
+],
+"office/energy_supplier":[
+"شركة مرافق الكهرباء"
+],
+"office/estate_agent":[
+"الطابو، دائرة السجل العقاري، إدارة تسجيل الممتلكات",
+"مكتب عقاري"
+],
+"office/financial":[
+"وزارة المالية، المكتب المالي والضريبي،",
+"مكتب مالي"
+],
+"office/forestry":[
+"إدارة الغابات"
+],
+"office/foundation":[
+"مؤسسة"
+],
+"office/government":[
+"مكتب حكومي",
+"رئاسة الوزراء، إدارة الدولة، المكتب العام،"
+],
+"office/government/register_office":[
+"مكتب السجل المدني"
+],
+"office/government/tax":[
+"مكتب الضرائب"
+],
+"office/guide":[
+"مكتب الدليل السياحي",
+"مكتب الدليل السياحي; مكتب المرشد السياحي"
+],
+"office/insurance":[
+"مكتب تأمينات",
+"مديرية المعاشات، دائرة التأمينات الاجتماعية، إدارة التأمين"
+],
+"office/it":[
+"متخصص في تكنولوجيا المعلومات; معلوماتية",
+"متخصص في تكنولوجيا المعلومات"
+],
+"office/lawyer":[
+"مكتب محاماة، اﻹدارة القانونية، المحكمة،",
+"مكتب قانوني "
+],
+"office/lawyer/notary":[
+"كاتب عدل / موثق"
+],
+"office/newspaper":[
+"صحيفة",
+"جريدة، صفحة أخبار، يومية"
+],
+"office/ngo":[
+"مكتب المنظمات الغير حكومية",
+"مكتب الجمعيات الخيرية، هيئات العمل اﻹغائي،"
+],
+"office/notary":[
+"كاتب عدل، موثق",
+"كاتب عدل / موثق"
+],
+"office/physician":[
+"طبيب"
+],
+"office/political_party":[
+"مكتب الحزب السياسي"
+],
+"office/private_investigator":[
+"مكتب محقق"
+],
+"office/quango":[
+"السلطة الإدارية المستقلة"
+],
+"office/research":[
+"مكتب بحوث",
+"مكتب البحوث، مكتب اﻷبحاث، هيئة اﻷبحاث"
+],
+"office/surveyor":[
+"مساح",
+"مكتب مساح أرضي"
+],
+"office/tax_advisor":[
+"مستشار الضرائب"
+],
+"office/telecommunication":[
+"مكتب الاتصالات، إدارة الاتصال، هيئة الاتصالات العامة",
+"مكتب اتصالات"
+],
+"office/therapist":[
+"المعالج",
+"معالج، معالج فيزيائي، طبيب، مُمرض"
+],
+"office/travel_agent":[
+"وكالة السفر"
+],
+"office/water_utility":[
+"شركة المياه"
+],
+"place":[
+"قصر"
+],
+"place/city":[
+"مدينة"
+],
+"place/farm":[
+"مزرعة"
+],
+"place/hamlet":[
+"قرية صغيرة"
+],
+"place/island":[
+"جزيرة"
+],
+"place/islet":[
+"جزيرة صغيرة"
+],
+"place/isolated_dwelling":[
+"مساكن متفرقة"
+],
+"place/locality":[
+"موقع"
+],
+"place/neighbourhood":[
+"حي سكني"
+],
+"place/plot":[
+"قطعة الأرض"
+],
+"place/square":[
+"ساحة; باحة; ممشى",
+"ساحة"
+],
+"place/suburb":[
+"ضاحية"
+],
+"place/town":[
+"بلدة"
+],
+"place/village":[
+"قرية"
+],
+"playground/structure":[
+"هيكل اللعب"
+],
+"point":[
+"نقطة"
+],
+"power":[
+"ميزة طاقة"
+],
+"power/cable/underground":[
+"كابل كهرباء تحت الأرض"
+],
+"power/generator":[
+"كهرباء",
+"مولد طاقة",
+"مولد الطاقة",
+"مولد كهرباء",
+"طاقة"
+],
+"power/generator/method/photovoltaic":[
+"طاقة شمسية",
+"لوحات شمسية",
+"شمس",
+"طاقة",
+"لوحة شمسية"
+],
+"power/generator/source/nuclear":[
+"كهرباء",
+"نووي",
+"طاقة",
+"مفاعل نووي",
+"مفاعل"
+],
+"power/generator/source/wind":[
+"كهرباء",
+"توربينة",
+"رياح",
+"توربين",
+"توربينات",
+"طاقة",
+"توربينة رياح",
+"توليد كهرباء"
+],
+"power/line":[
+"خط الكهرباء",
+"خط الطاقة"
+],
+"power/minor_line":[
+"خط كهربائي صغير، خط طاقة صغير",
+"خط كهربائي ثانوي"
+],
+"power/plant":[
+"محطة توليد الكهرباء",
+"محطة توليد الكهرباء، الطاقة الكهربائية"
+],
+"power/pole":[
+"برج كهرباء"
+],
+"power/substation":[
+"محطة فرعية"
+],
+"power/switch":[
+"مفتاح وصل وفصل",
+"فصل",
+"مفتاح",
+"معدة وصل وفصل",
+"وصل"
+],
+"power/tower":[
+"برج تيار عالي الجهد",
+"برج عالي الجهد",
+"تيار عالي الجهد"
+],
+"power/transformer":[
+"محول كهربائي",
+"محول الكهربائي"
+],
+"public_transport/platform":[
+"منصة العبور"
+],
+"public_transport/station":[
+"محطة عبور (ترانزيت)"
+],
+"public_transport/station_aerialway":[
+"محطة النقل بالكابلات; محطة تلفريك",
+"محطة النقل بالكابلات"
+],
+"public_transport/station_bus":[
+"محطة الحافلات"
+],
+"public_transport/station_light_rail":[
+"محطة سكة حديد خفيفة"
+],
+"public_transport/station_monorail":[
+"محطة سكة حديد أحادية"
+],
+"public_transport/station_subway":[
+"محطة مترو"
+],
+"public_transport/station_train":[
+"محطة قطار",
+"محطة القطار"
+],
+"public_transport/station_tram":[
+"محطة ترام"
+],
+"public_transport/station_trolleybus":[
+"محطة حافلة كهربائية"
+],
+"public_transport/stop_area":[
+"منطقة موقف عبور (ترانزيت)"
+],
+"public_transport/stop_position":[
+"موقع موقف العبور"
+],
+"public_transport/stop_position_aerialway":[
+"موقع وقوف طريق جوي"
+],
+"public_transport/stop_position_bus":[
+"موقع وقوف حافلات"
+],
+"public_transport/stop_position_ferry":[
+"موقع وقوف عبّارات"
+],
+"public_transport/stop_position_light_rail":[
+"موقع وقوف سكك حديد خفيفة"
+],
+"public_transport/stop_position_monorail":[
+"موقع وقوف سكك حديد أحادية"
+],
+"public_transport/stop_position_subway":[
+"موقع وقوف مترو أنفاق"
+],
+"public_transport/stop_position_train":[
+"موقف وقوف قطارات"
+],
+"public_transport/stop_position_tram":[
+"موقع وقوف ترام"
+],
+"public_transport/stop_position_trolleybus":[
+"موقع وقوف حافلات كهربائية"
+],
+"railway":[
+"ميزة سكة حديد"
+],
+"railway/abandoned":[
+"سكة حديد مهجورة",
+"سكة حديدية مهجورة"
+],
+"railway/buffer_stop":[
+"مصد",
+"مصد قطارات",
+"قطار"
+],
+"railway/derail":[
+"قطار السكك الحديدية"
+],
+"railway/disused":[
+"سكة حديد غير مستعملة",
+"سكة حديدة مهجورة"
+],
+"railway/halt":[
+"موقف القطار"
+],
+"railway/milestone":[
+"معلم السكك الحديدية"
+],
+"railway/platform":[
+"منصة القطار"
+],
+"railway/signal":[
+"إشارات المرور ( السكك الحديدية )",
+"إشارة المرور"
+],
+"railway/station":[
+"محطة سكة حديد"
+],
+"railway/subway_entrance":[
+"مدخل مترو الأنفاق"
+],
+"railway/switch":[
+"مفتاح تحويل سكك حديد"
+],
+"railway/train_wash":[
+"غسيل قطارات"
+],
+"railway/tram_stop":[
+"موقف ترام"
+],
+"relation":[
+"علاقة"
+],
+"route/ferry":[
+"مسار عبّارة",
+"مسار سفن"
+],
+"seamark":[
+"علامة بحرية"
+],
+"shop":[
+"محل. متجر",
+"دكان",
+"متجر"
+],
+"shop/agrarian":[
+"متجر مستلزمات مزارع"
+],
+"shop/alcohol":[
+"محل خمور",
+"خمور",
+"متجر خمور"
+],
+"shop/anime":[
+"متجر أنيمي / مانغا"
+],
+"shop/antiques":[
+"متجر تحف وأنتيكات"
+],
+"shop/appliance":[
+"متجر الأجهزة المنزلية"
+],
+"shop/art":[
+"متجر الفنون",
+"متجر فنون"
+],
+"shop/baby_goods":[
+"متجر سلع أطفال"
+],
+"shop/bag":[
+"حقيبة",
+"متجر حقائب وأمتعة",
+"شنطة"
+],
+"shop/bakery":[
+"مخبز"
+],
+"shop/bathroom_furnishing":[
+"متجر أثاث الحمام"
+],
+"shop/beauty":[
+"محل تجميل"
+],
+"shop/beauty/nails":[
+"صالون أظافر"
+],
+"shop/beauty/tanning":[
+"صالون تسمير"
+],
+"shop/bed":[
+"متجر مراتب ولوازم الفراش"
+],
+"shop/beverages":[
+"محل مشروبات"
+],
+"shop/bicycle":[
+"محل دراجات هوائية; متجر دراجات; محل دراجات; بائع دراجات",
+"متجر دراجات هوائية"
+],
+"shop/bookmaker":[
+"مكتب رهانات"
+],
+"shop/books":[
+"مكتبة، كتب",
+"متجر كتب"
+],
+"shop/boutique":[
+"بوتيك"
+],
+"shop/butcher":[
+"محل بيع لحوم. محل جزارة",
+"جزار",
+"لحوم"
+],
+"shop/candles":[
+"متجر الشموع"
+],
+"shop/car":[
+"وكالة سيارات"
+],
+"shop/car_parts":[
+"محل بيع قطع السيارات",
+"محل بيع أجزاء السيارة"
+],
+"shop/car_repair":[
+"ورشة إصلاح سيارات",
+"محل تصليح سيارات; ورشة تصليح; ورشة; ميكانيكي"
+],
+"shop/carpet":[
+"متجر سجاد; زرابي",
+"متجر سجاد"
+],
+"shop/charity":[
+"متجر خيري"
+],
+"shop/cheese":[
+"متجر أجبان"
+],
+"shop/chemist":[
+"متجر أدوات تجميل مستحضرات نظافة"
+],
+"shop/chocolate":[
+"متجر شوكولاتة"
+],
+"shop/clothes":[
+"محل ملابس",
+"محل بيع ملابس"
+],
+"shop/coffee":[
+"متجر القهوة"
+],
+"shop/computer":[
+"محل حاسوب"
+],
+"shop/confectionery":[
+"حلويات",
+"متجر سكاكر",
+"حلوى"
+],
+"shop/convenience":[
+"بقالة"
+],
+"shop/copyshop":[
+"متجر نسخ وتصوير"
+],
+"shop/cosmetics":[
+"متجر مستحضرات التجميل"
+],
+"shop/craft":[
+"متجر الفنون والحرف"
+],
+"shop/curtain":[
+"ستائر",
+"محل بيع الستائر"
+],
+"shop/dairy":[
+"متجر الألبان، الألبان",
+"متجر الألبان"
+],
+"shop/deli":[
+"محل أطعمة لذيذة",
+"ديلي"
+],
+"shop/department_store":[
+"محل متعدد الأقسام"
+],
+"shop/doityourself":[
+"محل افعلها بنفسك"
+],
+"shop/dry_cleaning":[
+"تنظيف جاف"
+],
+"shop/e-cigarette":[
+"متجر سجائر إلكترونية"
+],
+"shop/electronics":[
+"محل إلكترونيات"
+],
+"shop/fabric":[
+"الأقمشة",
+"محل بيع الأقمشة"
+],
+"shop/farm":[
+"المنتج"
+],
+"shop/fashion":[
+"متجر موضة"
+],
+"shop/florist":[
+"محل بيع الورود",
+"محل بيع زهور",
+"محل بيع ورود"
+],
+"shop/funeral_directors":[
+"بيت الدفن"
+],
+"shop/furniture":[
+"محل أثاث"
+],
+"shop/garden_centre":[
+"مشتل"
+],
+"shop/gift":[
+"محل بيع هدايا",
+"محل الهدايا"
+],
+"shop/greengrocer":[
+"بقالة"
+],
+"shop/hairdresser":[
+"حلاق",
+"مصفف الشعر"
+],
+"shop/hairdresser_supply":[
+"متجر مستلزمات حلاقين"
+],
+"shop/hardware":[
+"محل أجهزة",
+"محل بيع عتاد"
+],
+"shop/health_food":[
+"متجر أغذية صحية"
+],
+"shop/hearing_aids":[
+"متجر سماعات الأذن الطبية",
+"سماعات الأذن الطبية; معينات سمعية; أجهزة تقوية السمع; مساعدات السمع"
+],
+"shop/herbalist":[
+"محل بيع الأعشاب الطبية"
+],
+"shop/hifi":[
+"محل بيع أجهزة عالية الدقة"
+],
+"shop/houseware":[
+"متجر الأدوات المنزلية"
+],
+"shop/interior_decoration":[
+"متجر الديكور الداخلي"
+],
+"shop/jewelry":[
+"محل مجوهرات"
+],
+"shop/kiosk":[
+"كشك"
+],
+"shop/kitchen":[
+"متجر تصميم مطابخ"
+],
+"shop/laundry":[
+"محل غسيل ملابس",
+"غسيل ملابس"
+],
+"shop/leather":[
+"متجر المنتجات الجلدية"
+],
+"shop/locksmith":[
+"صانع اﻷقفال، أقفال، حداد،",
+"محل أقفال"
+],
+"shop/lottery":[
+"متجر اليانصيب"
+],
+"shop/mall":[
+"مول",
+"مركز تسوق",
+"مركز تسوق مول"
+],
+"shop/massage":[
+"صالون التدليك"
+],
+"shop/medical_supply":[
+"متجر مستلزمات طبية"
+],
+"shop/mobile_phone":[
+"محل بيع هواتف"
+],
+"shop/money_lender":[
+"مقرض المال"
+],
+"shop/motorcycle":[
+"وكالة دراجات هوائية; توكيل; بائع; توكيل دراجات; بائع دراجات; بيع دراجات; بيع",
+"بائع دراجات نارية"
+],
+"shop/motorcycle_repair":[
+"ورشة تصليح الدراجات النارية"
+],
+"shop/music":[
+"محل بيع الموسيقى",
+"متجر بيع موسيقى"
+],
+"shop/musical_instrument":[
+"متجر آلات موسيقية",
+"محل بيع الآلات الموسيقية"
+],
+"shop/newsagent":[
+"محل بيع الجرائد",
+"جرائد"
+],
+"shop/nutrition_supplements":[
+"متجر المكملات الغذائية، مكملات غذائية",
+"متجر المكملات الغذائية"
+],
+"shop/optician":[
+"محل بيع نظارات",
+"متجر نظارات"
+],
+"shop/outdoor":[
+"متجر ملابس ومعدات الأنشطة في الهواء الطلق"
+],
+"shop/paint":[
+"طلاء",
+"متجر دهانات وطلاء"
+],
+"shop/party":[
+"متجر مستلزمات حفلات"
+],
+"shop/pastry":[
+"متجر الحلويات",
+"متجر حلويات"
+],
+"shop/pawnbroker":[
+"متجر رهن"
+],
+"shop/perfumery":[
+"متجر العطور",
+"عطور"
+],
+"shop/pet":[
+"محل حيوانات أليفة"
+],
+"shop/photo":[
+"متجر تظّهير الصور، محل تصوير، مصور",
+"محل تصوير"
+],
+"shop/pyrotechnics":[
+"ألعاب نارية",
+"متجر ألعاب نارية"
+],
+"shop/radiotechnics":[
+"متجر المكونات الإلكترونية"
+],
+"shop/religion":[
+"متجر ديني",
+"متجر",
+"دين"
+],
+"shop/scuba_diving":[
+"متجر غوص تحت الماء"
+],
+"shop/seafood":[
+"مأكولات بحرية",
+"سمك",
+"مسمكة",
+"متجر مأكولات بحرية"
+],
+"shop/second_hand":[
+"محل لبيع البضائع المستعملة"
+],
+"shop/sewing":[
+"خياطة",
+"ترزي",
+"خياط",
+"متجر مستلزمات خياطة"
+],
+"shop/shoes":[
+"احذية",
+"متجر أحذية",
+"محل بيع أحذية",
+"حذاء"
+],
+"shop/sports":[
+"محل بيع أدوات رياضية",
+"متجر أدوات رياضية"
+],
+"shop/stationery":[
+"مكتبة",
+"متجر أدوات مكتبية",
+"قرطاسية",
+"محل بيع أدوات مكتبية"
+],
+"shop/storage_rental":[
+"تأجير أماكن التخزين"
+],
+"shop/supermarket":[
+"سوبرماركت",
+"متجر كبير",
+"سوبر ماركت"
+],
+"shop/tailor":[
+"ترزي",
+"خياط"
+],
+"shop/tattoo":[
+"صالون الوشم"
+],
+"shop/tea":[
+"محل بيع الشاي،  شاي",
+"متجر شاي"
+],
+"shop/ticket":[
+"بائع التذاكر; تذاكر",
+"بائع تذاكر"
+],
+"shop/tiles":[
+"محل بيع البلاط، بلاط، خزف",
+"متجر بلاط",
+"سيراميك"
+],
+"shop/tobacco":[
+"محل بيع التبغ",
+"تبغ، سيجارة"
+],
+"shop/toys":[
+"متجر ألعاب",
+"محل ألعاب"
+],
+"shop/travel_agency":[
+"وكالة سفر"
+],
+"shop/tyres":[
+"محل بيع إطارات"
+],
+"shop/vacant":[
+"محل شاغر"
+],
+"shop/vacuum_cleaner":[
+"متجر المكنسات الكهربائية; مكنسات كهربائية",
+"متجر المكنسات الكهربائية"
+],
+"shop/variety_store":[
+"محل كل شيء ",
+"محل كل شيء",
+"محل بالجملة"
+],
+"shop/video":[
+"محل بيع وتأجير الأفلام"
+],
+"shop/video_games":[
+"متجر العاب الفيديو"
+],
+"shop/watches":[
+"متجر الساعات اليدوية"
+],
+"shop/water":[
+"مياه",
+"ماء",
+"مياه صحية",
+"متجر مياه شرب"
+],
+"shop/water_sports":[
+"متجر رياضة مائية/سباحة"
+],
+"shop/weapons":[
+"متجر أسلحة"
+],
+"shop/wholesale":[
+"متجر بيع بالجملة",
+"محل بيع بالجملة"
+],
+"shop/window_blind":[
+"متجر ستائر نوافذ"
+],
+"shop/wine":[
+"متجر نبيذ"
+],
+"tourism":[
+"ميزة سياحية"
+],
+"tourism/alpine_hut":[
+"كوخ جبلي",
+"دار استراحة"
+],
+"tourism/apartment":[
+"شقة سياحية"
+],
+"tourism/aquarium":[
+"حوض سمك"
+],
+"tourism/artwork":[
+"عمل فني"
+],
+"tourism/attraction":[
+"معلم سياحي",
+"مكان سياحي"
+],
+"tourism/camp_site":[
+"مكان التخييم"
+],
+"tourism/caravan_site":[
+"موقف عربات كبيرة"
+],
+"tourism/chalet":[
+"كوخ لقضاء العطلة"
+],
+"tourism/gallery":[
+"رواق الفنون",
+"رواق الفنون، متحف الفنون"
+],
+"tourism/guest_house":[
+"دار الضيافة"
+],
+"tourism/hostel":[
+"نزل"
+],
+"tourism/hotel":[
+"فندق"
+],
+"tourism/information":[
+"معلومات سياحية"
+],
+"tourism/information/board":[
+"لوحة المعلومات"
+],
+"tourism/information/map":[
+"خريطة"
+],
+"tourism/motel":[
+"فندق رخيص"
+],
+"tourism/museum":[
+"متحف",
+"معرض"
+],
+"tourism/picnic_site":[
+"موقع نزهة"
+],
+"tourism/theme_park":[
+"حديقة ترفيه"
+],
+"tourism/viewpoint":[
+"منظر سياحي"
+],
+"tourism/zoo":[
+"حديقة الحيوانات",
+"حديقة حيوانات"
+],
+"traffic_calming":[
+"مطب; مخفف; مهديء; مهدئ; ممهل; تخفيف; تمهيل; مطب صناعي",
+"مخفف سرعة"
+],
+"traffic_calming/bump":[
+"مطب"
+],
+"traffic_calming/hump":[
+"مطب سرعة"
+],
+"traffic_calming/rumble_strip":[
+"شريط قرقعة للطرقات"
+],
+"traffic_calming/table":[
+"جدول السرعة"
+],
+"type/boundary":[
+"حدود"
+],
+"type/boundary/administrative":[
+"حدود إدارية",
+"تقسيمات إدارية"
+],
+"type/multipolygon":[
+"متعدد الأضلاع"
+],
+"type/restriction":[
+"قيود"
+],
+"type/restriction/no_left_turn":[
+"ممنوع الإنعطاف لليسار"
+],
+"type/restriction/no_right_turn":[
+"ممنوع الإنعطاف لليمين"
+],
+"type/restriction/no_straight_on":[
+"لا على التوالي"
+],
+"type/restriction/no_u_turn":[
+"لا يوجد دوران"
+],
+"type/restriction/only_left_turn":[
+"منعطف لليسار فقط"
+],
+"type/restriction/only_right_turn":[
+"منعطف لليمين فقط"
+],
+"type/restriction/only_straight_on":[
+"لا يوجد منعطفات"
+],
+"type/restriction/only_u_turn":[
+"دوران للخلف فقط"
+],
+"type/route":[
+"مسار"
+],
+"type/route/bicycle":[
+"مسار دراجات; مسار; طريق",
+"مسار دراجات"
+],
+"type/route/bus":[
+"مسار باصات، حافلات",
+"مسار الباصات"
+],
+"type/route/detour":[
+"مسار طريق جانبي"
+],
+"type/route/ferry":[
+"مسار عبارة",
+"مسار سفن",
+"مسار عبارات"
+],
+"type/route/hiking":[
+"ممشى ",
+"مسار المشاة، طريق للمشي،"
+],
+"type/route/horse":[
+"مسار ركوب"
+],
+"type/route/light_rail":[
+"مسار القطار الخفيف",
+"قطار خفيف، ترام"
+],
+"type/route/pipeline":[
+"مسار خط أنابيب"
+],
+"type/route/piste":[
+"تزلج",
+"مسار التزلج"
+],
+"type/route/power":[
+"مسار الطاقة",
+"مسار الكهرباء",
+"مسار خط كهربائي"
+],
+"type/route/road":[
+"مسار طريق",
+"مسار الطريق"
+],
+"type/route/subway":[
+"مسار مترو"
+],
+"type/route/train":[
+"مسار قطار",
+"مسار القطار"
+],
+"type/route/tram":[
+"مسار ترام"
+],
+"type/route_master":[
+"مسار رئيسي"
+],
+"type/site":[
+"موقع"
+],
+"type/waterway":[
+"مجرى مائي، ممر مائي",
+"مجرى مائي"
+],
+"waterway":[
+"ميزة الممر المائي"
+],
+"waterway/boatyard":[
+"حوض بناء سفن; ورشة",
+"حوض بناء سفن"
+],
+"waterway/canal":[
+"قناة"
+],
+"waterway/dam":[
+"سد"
+],
+"waterway/ditch":[
+"خندق"
+],
+"waterway/dock":[
+"رصيف بحري رطب/رصيف بحري جاف"
+],
+"waterway/drain":[
+"مصرف مياه"
+],
+"waterway/fuel":[
+"محطة وقود بحري",
+"وقود بحري"
+],
+"waterway/river":[
+"نهر"
+],
+"waterway/riverbank":[
+"ضفة نهر"
+],
+"waterway/sanitary_dump_station":[
+"التخلص من مرحاض البحر"
+],
+"waterway/stream":[
+"مجرى",
+"مجرى، جدول مائي"
+],
+"waterway/stream_intermittent":[
+"مجرى متقطع"
+],
+"waterway/water_point":[
+"مياه الشرب البحرية"
+],
+"waterway/waterfall":[
+"شلال"
+],
+"waterway/weir":[
+"هدار - سد صغير",
+"هدار، سد صغير"
+]
+}

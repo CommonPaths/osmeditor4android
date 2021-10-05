@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <!--Mode names-->
+  <string name="mode_indoor">Innendørs</string>
+  <!--Dialogs-->
+  <string name="transfer_download_current_dialog_title">Advarsel!</string>
+  <string name="transfer_download_current_upload">Last opp</string>
+  <string name="transfer_download_current_download">Avbryt og last ned</string>
+  <!---->
+  <string name="progress_title">Leser</string>
+  <string name="progress_message">Leser inn i minne…</string>
+  <string name="progress_download_message">Laster ned data fra teneren…</string>
+  <!--Confirm upload dialog-->
+  <string name="changes_deleted">«%1$s» sletta</string>
+  <string name="changes_changed">«%1$s» endra</string>
+  <string name="changes_created">«%1$s» oppretta</string>
+  <string name="upload_comment_label">Kommentar:</string>
+  <!---->
+  <string name="upload_gpx_description_label">Beskrivelse</string>
+  <string name="upload_gpx_tags_label">Tagger</string>
+  <!--task fragment-->
+  <string name="openstreetbug_comment_label">Kommentar:</string>
+  <!--Unsaved data dialog-->
+  <string name="unsaved_data_title">Advarsel!</string>
+  <string name="unsaved_data_proceed">Skrot og gå videre</string>
+  <!--Imagery offset dialog-->
+  <string name="imagery_offset_description">Beskrivelse</string>
+  <string name="imagery_offset_date">Opprettet</string>
+  <string name="imagery_offset_zoom">Zoom</string>
+  <!--Search/Find dialog-->
+  <!--Search objects dialog-->
+  <!---->
+  <string name="search">Søk</string>
+  <!--element information dialog-->
+  <string name="version">Versjon</string>
+  <!--GeoJSON feature display dialog-->
+  <!--API/Data layer info dialog-->
+  <!--Tile layer info dialog-->
+  <!---->
+  <!--hidden object warning dialog-->
+  <!--This concerns a shown message that should be shown every time-->
+  <!--This concerns a shown message that should only be shown once-->
+  <!--debug dialog-->
+  <!--JS console dialog-->
+  <!--Validator dialogs-->
+  <!--Empty relation dialog-->
+  <!--GPX waypoint dialog-->
+  <!--Custom imagery dialogs-->
+  <!--Layer style dialog-->
+  <!--Layer dialog-->
+  <!--Layer info dialog-->
+  <!--Photo viewer-->
+  <!--API info dialog-->
+  <!--Undo - Redo dialog-->
+  <!--Undo location not in view dialog-->
+  <!--Feedback activity-->
+  <!--BoxPicker-->
+  <!--Clear/Reset GPX Track-->
+  <!--Tips-->
+  <!--NumberPicker-->
+  <!--NotificationChannels-->
+  <!--Toaster-->
+  <string name="toast_no_changes">Du har ikke endra noe enda…</string>
+  <string name="toast_export_success">Eksporterte til %1$s</string>
+  <!---->
+  <!--Error messages-->
+  <!--Some generic labels/buttons-->
+  <string name="yes">Ja</string>
+  <string name="no">Nei</string>
+  <string name="cancel">Avbryt</string>
+  <string name="save">Lagre</string>
+  <string name="forward">Fremover</string>
+  <!--Read a file-->
+  <!--Dialog for back button-->
+  <!--Strings in PorpertyEditor-->
+  <string name="key">nøkkel</string>
+  <string name="value">verdi</string>
+  <string name="link_mapfeatures">http://wiki.openstreetmap.org/index.php/Map_Features</string>
+  <string name="tag_menu_sourcesurvey">Kartlagt</string>
+  <string name="tag_menu_preset">Knapper</string>
+  <string name="tag_menu_revert">Gjør om</string>
+  <string name="tag_details">Detaljer</string>
+  <string name="menu_up">Opp</string>
+  <!--Custom preset creation-->
+  <!--Strings in Box/LocationPicker-->
+  <string name="location_choose_radius">Velg radius:</string>
+  <string name="location_default_radius">300m</string>
+  <string name="location_last_text">Siste kjente posisjon:</string>
+  <string name="location_current_text">Nåværende posisjon:</string>
+  <string name="location_last_text_parameterized">Siste kjente posisjon: %1$s</string>
+  <string name="location_current_text_parameterized">Nåværende posisjon: %1$s</string>
+  <string name="location_coordinates_text">Fra koordinater:</string>
+  <string name="location_lat_label">Lat:</string>
+  <string name="location_lon_label">Lon:</string>
+  <!--Strings in DownloadActivity-->
+  <!--Strings in Go to coordinates-->
+  <!--Menu-->
+  <string name="menu_move">Flytt</string>
+  <string name="menu_edit">Endre</string>
+  <string name="menu_add">Ny</string>
+  <string name="menu_config">Innstillinger</string>
+  <string name="menu_help">Hjelp</string>
+  <string name="menu_erase">Slett node</string>
+  <string name="menu_split">Kløyv</string>
+  <string name="menu_append">Fortsett</string>
+  <string name="menu_tag">Endre tagger</string>
+  <string name="menu_gps_show">Vis plassering</string>
+  <string name="menu_transfer">Overfør…</string>
+  <string name="menu_transfer_download_current">Last ned nåværende utsnitt</string>
+  <string name="menu_transfer_upload">Last opp til OSM</string>
+  <string name="menu_join">Kombiner</string>
+  <string name="menu_rotate">Rotér</string>
+  <!---->
+  <!--Background alignment-->
+  <string name="menu_tools_background_align_reset">Tilbakestill</string>
+  <!--Menus in layers dialog-->
+  <!---->
+  <!--element action mode menu-->
+  <!--Text should be as short as possible-->
+  <string name="menu_history">Historikk</string>
+  <string name="menu_merge">Kombiner</string>
+  <string name="menu_reverse">Snu</string>
+  <!--EasyEdit context menus-->
+  <!--EasyEdit action mode titles-->
+  <string name="actionmode_wayselect">Veg valgt</string>
+  <string name="actionmode_nodeselect">Node valgt</string>
+  <string name="actionmode_createpath">Lager bane</string>
+  <!--EasyEdit action mode sub-titles-->
+  <!--Simple Action Mode-->
+  <!--Preferences-->
+  <string name="config_backgroundLayer_title">Kartbakgrunn</string>
+  <string name="config_advancedprefs">Avanserte innstillinger</string>
+  <string name="config_presetbutton_title">Knapper</string>
+  <!--Validator preferences-->
+  <!--opening hours templates-->
+  <!--these are no longer on the prefs page, but are used as menu entries-->
+  <string name="config_category_info">Om</string>
+  <!--Advanced preferences-->
+  <!--User Interface Settings-->
+  <string name="config_iconbutton_title">Vis node-ikon</string>
+  <string name="config_iconbutton_summary">Vis ikonet for knapp som passer best på noder.</string>
+  <string name="config_showTolerance_title">Vis endringsområde</string>
+  <!--Data and Editing Settings-->
+  <!--Auto-download settings-->
+  <!--Location Settings-->
+  <!--Server Settings-->
+  <string name="config_loginbutton_title">Brukerkonto</string>
+  <!--Layer download and storage-->
+  <!--Miscellaneous-->
+  <string name="config_showStats_title">Vis statistikk</string>
+  <!--Experimental-->
+  <!---->
+  <!--preset downloader messages-->
+  <string name="preset_update">Oppdater knapper</string>
+  <string name="preset_download_parse_failed">Knappefila er ugyldig. Knappesettet kommer ikke til å virke.</string>
+  <!--url handler activity-->
+  <string name="urldialog_api_exists">En API med denne URLen finst allerede, men du kan legga til en til (f. eks. for å lett skifte konto).</string>
+  <string name="urldialog_add_api">Legg til API</string>
+  <string name="urldialog_nodata_text">Konfigurasjons-URLen har ikke gyldig data.</string>
+  <!--API configuration-->
+  <!--common terms-->
+  <string name="add">Legg til</string>
+  <string name="edit">Endre</string>
+  <string name="delete">Slett</string>
+  <string name="name">Navn</string>
+  <string name="url">URL</string>
+  <string name="default_">Standard</string>
+  <!---->
+  <!--"default" is a reserved Java keyword…-->
+  <string name="api">API</string>
+  <string name="undo">Gjør om</string>
+  <string name="redo">Gjenta</string>
+  <string name="undo_nothing">Intet å gjøre om</string>
+  <string name="gps_failure">Klarte ikke å slå på GPS</string>
+  <!--element description-->
+  <!--undo actions - give a description of the action, in infinitive, to display in strings like "Undo: actionname" or "Redo: actionname"-->
+  <!--ACRA-->
+  <!--Exceptions messages-->
+  <!--Notifications-->
+  <!--Misc relation related stuff-->
+  <string name="role">Rolle</string>
+  <string name="relation">Relasjon</string>
+  <string name="type">Type</string>
+  <!--time and distance-->
+  <!--Help system-->
+  <!--Arrays-->
+  <!--The entries need to match the order of the CheckStatus enum-->
+</resources>

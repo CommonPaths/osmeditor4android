@@ -1,0 +1,274 @@
+# Úvod do Vespucci
+
+Vespucci je plně vybavený editor OpenStreetMap, podporující většinu operací, které poskytují desktopové editory. Aplikace byla otestována pro Android 2.3 až 7.0 a také pro různé varianty založené na AOSP. Jedno upozornění: zatímco schopnosti mobilních zařízení dostihly desktopové stroje, zejména starší zařízení mají velmi omezenou dostupnou paměť a bývají spíše pomalejší. Měli byste to při používání Vespucci vzít v potaz a pamatovat, že například oblasti, které upravujete, by měli být rozumného rozsahu. 
+
+## První použití
+
+Po spuštění Vespucci se zobrazí dialog "Stáhnout jinou oblast"/"Načíst oblast". Pokud se vám zobrazují souřadnice a chcete zahájit stahování okamžitě, můžete zvolit odpovídající možnost a vybrat poloměr oblasti, kterou chcete stáhnout. Na pomalých zařízeních nevolte rozsáhlé oblasti. 
+
+Alternativně lze dialog zrušit stiskem tlačítka "Zobrazit mapu", požadovanou oblast najít na mapě a poté data stáhnout (viz níže "Editování s Vespucci").
+
+## Editování s Vespucci
+
+V závislosti na velikosti obrazovky a stáří vašeho zařízení mohou být možnosti editace dostupné buď přímo skrze ikony na horním panelu, skrze rozbalovací nabídku vpravo na horním panelu, nebo skrze dolní panel (pokud tu je), a nebo skrze klávesu nabídky.
+
+<a id="download"></a>
+
+###Stahování OSM dat
+
+Zvolte buď ikonu ![Přenos](../images/menu_transfer.png) nebo položku "Přenos" z menu. Zobrazí se sedm možností:
+
+* **Download current view** - download the area visible on the screen and merge it with existing data *(requires network connectivity)*
+* **Clear and download current view** - clear any data in memory and then download the area visible on the screen *(requires network connectivity)*
+* **Upload data to OSM server** - upload edits to OpenStreetMap *(requires authentication)* *(requires network connectivity)*
+* **Auto download** - download an area around the current geographic location automatically *(requires network connectivity)* *(requires GPS)*
+* **File...** - saving and loading OSM data to/from on device files.
+* **Note/Bugs...** - download (automatically and manually) OSM Notes and "Bugs" from QA tools (currently OSMOSE) *(requires network connectivity)*
+
+Nejjednodušším způsobem stahování dat je najít požadovanou oblast, kterou chcete editovat, na mapě a poté zvolit "Stáhnout aktuální pohled". Přibližovat můžete pomocí gest, tlačítek přiblížení nebo pomocí tlačítek pro ovládání hlasitosti vašeho zařízení. Vespucci by poté měl stáhnout data pro aktuální pohled. Pro stahování dat do vašeho zařízení není zapotřebí žádného ověření.
+
+### Editování
+
+<a id="lock"></a>
+
+#### Uzamčení, odemčení, přepínání režimů
+
+K zabránění nechtěných úprav se Vespucci spustí v "uzamčeném" režimu, který dovoluje pouze přibližování a posouvání mapy. Pro odemčení obrazovky klepněte na ikonu ![zámku](../images/locked.png). 
+
+Dlouhým stisknutím ikony zámku se zobrazí nabídka se 4 možnostmi:
+
+* **Normální** - výchozí režim úprav, lze vytvářet nové objekty, existující upravovat, přesouvat a odstraňovat. Symbolizován jednoduchou bílou ikonou zámku.
+* **Editování tagů** - výběr existujících objektů vyvolá Editor vlastností, dlouhý stisk na hlavní obrazovce vytvoří objekt, nicméně měnit pozice objektů není možné. Symbolizován bílou ikonou zámku s "T".
+* **Vnitřní prostory** - aktivuje režim pro Editaci vnitřních prostor, viz [režim Vnitřní prostory](#indoor). Symbolizován bílou ikonou zámku s "I".
+* **Režim kontroly** - aktivuje Režim kontroly, zobrazeny jsou pouze objekty splňující nastavená kritéria, viz [Režim kontroly](#c-mode). Symbolizován bílou ikonou zámku s "C".
+
+#### Jedno klepnutí, dvě klepnutí a dlouhé stisknutí
+
+Ve výchozím nastavení mají uzly a cesty, které lze zvolit, oranžově vyznačenou oblast do které musíte přibližně klepnout pro zvolení objektu. Existují tři možnosti:
+
+* Jedno klepnutí: Vybírá objekt. 
+    * Osamocený uzel/cesta je označena ihned. 
+    * Nicméně pokud se pokusíte vybrat objekt a Vespucci uzná, že je výběr nejednoznačný, zobrazí se nabídka s výběrem umožňující vybrat objekt, který jste si přáli zvolit. 
+    * Zvolené objekty jsou zvýrazněny žlutě. 
+    * Více informací viz [Zvolený uzel](Node%20selected.md), [Zvolená cesta](Way%20selected.md) a [Zvolená relace](Relation%20selected.md).
+* Dvě klepnutí: Zahájí [Režim vícenásobného výběru](Multiselect.md)
+* Dlouhé stisknutí: Vytvoří zaměřovač "+" umožňující přidat uzly, viz níže, a [Vytváření nových objektů](Creating%20new%20objects.md). Tento způsob je možný při vypnutém „Jednoduchém režimu“.
+
+Vyplatí se přiblížit mapu, pokud plánujete upravovat v oblasti s vysokou hustotou.
+
+Vespucci má kvalitní systém "zpět/vpřed", takže se nemusíte bát experimentovat s vaším zařízením, nicméně prosíme nenahrávejte a neukládejte čistě testovací data.
+
+#### Výběr / Zrušení výběru (jedno klepnutí a "nabídka výběru")
+
+Klepněte na objekt, který chcete zvolit a označit. Klepnutím na prázdnou oblast výběr zrušíte. Pokud máte označený objekt a chcete označit jiný, jednoduše klepněte na dotyčný objekt, není nutné rušit označení původního objektu. Dvě klepnutí na objekt zahájí [Multiselect](Multiselect.md).
+
+Všimněte si, že pokud se pokusíte vybrat objekt a Vespucci nazná, že je výběr nejednoznačný (např. uzel ležící na cestě nebo jiné překrývající se objekty), zobrazí se nabídka výběru - klepněte na objekt, který chcete vybrat. 
+
+Vybrané objekty jsou odlišeny tenkým žlutým okrajem. Žlutý okraj může být obtížné zpozorovat v závislosti na mapovém podkladu a přiblížení. Po provedení výběru se objeví oznámení potvrzující výběr.
+
+Po provedení výběru se zobrazí seznam podporovaných operací (buď jako tlačítka nebo jako položky menu) pro zvolený objekt: Pro více informací viz [Uzel vybránl](Node%20selected.md), [Cesta vybrána](Way%20selected.md) a [Relace vybrána](Relation%20selected.md).
+
+#### Zvolené objekty: Úprava tagů
+
+Druhé klepnutí na zvolený objekt otevře editor tagů, ve kterém můžete upravovat tagy přiřazené k objektu.
+
+Všimněte si, že pro překrývající se objekty (např. uzel na cestě) se podruhé zobrazí menu s výběrem. Zvolení stejného objektu zobrazí editor tagů; zvolení jiného objektu jednoduše zvolí daný objekt.
+
+#### Zvolené objekty: Posun Uzlu nebo Cesty
+
+Zvolené objekty můžete posouvat. Všimněte si, že objekty lze přetahovat/posouvat pouze pokud jsou zvolené. Jednoduše uchopte vybraný objekt (v oblasti tolerance) a posuňte jej. V nastavení můžete zvolit Větší oblast pro výběr uzlu, díky které je snazší objekt uchopit a umístit. 
+
+#### Přidání nového Uzlu/Bodu nebo Cesty 
+
+Při prvním spuštění je aplikace v „Jednoduchém režimu“, to lze změnit v hlavní nabídce zrušením zatržení odpovídající volby.
+
+##### Jednoduchý režim
+
+Stisknutí velkého zeleného tlačítka na obrazovce s mapou zobrazí nabídku. Po zvolení jedné z nabízených možností určíte klepnutím do mapy místo, na které chcete objekt umístit. Během volby umístění lze mapu v případě potřeby přibližovat či oddalovat. 
+
+Více informací viz [Creating new objects in simple actions mode](Creating%20new%20objects%20in%20simple%20actions%20mode.md).
+
+Dlouze stiskněte na místo, kde chcete vytvořit uzel nebo počátek cesty. Zobrazí se černý symbol "zaměřovače". 
+* Pokud chcete vytvořit nový uzel (nenapojený na objekt), klikněte mimo existující objekty.
+* Pokud chcete rozšířit cestu, klikněte do oblasti tolerance výběru cesty (nebo uzlu cesty). Tolerance výběru je vyznačena oranžovou oblastí okolo uzlu nebo cesty.
+
+Jakmile se zobrazí symbol zaměřovače, máte tři možnosti:
+
+* Dotek na stejném místě. 
+* Pokud se nitkový kříž nenachází v blízkosti uzlu, opětovný dotek stejného místa vytvoří nový uzel. Pokud jste blízko cesty (ale ne poblíž uzlu), bude nový uzel na cestě (a připojen k cestě). 
+* Pokud je nitkový kříž v blízkosti uzlu (tj. Uvnitř toleranční zóny uzlu) , dotýká se stejného místa, vybírá uzel (a otevře se editor tagů.) Není vytvořen žádný nový uzel Akce je stejná jako v předchozím výběru.
+* Dotkněte se jiného místa. Dotyk jiného místa (mimo toleranční zónu nitkového kříže) přidá další segment cesty od původní pozice k aktuální pozici. Pokud je nitkový kříž blízko cesty nebo uzlu, nový segment bude připojen k tomuto uzlu nebo cestě.
+
+Jednoduše klepněte na místo, kam chcete přidat další uzel cesty. Pro dokončení cesty klepněte na koncový uzel podruhé. Pokud se koncový uzel nachází na cestě nebo existujícím uzlu, tak se na ni vytvářený segment automaticky napojí. 
+
+Můžete také použít položku nabídky: Viz [Vytvoření nového objektu](Creating%20new%20objects.md) pro víc informací.
+
+#### Přidání oblasti
+
+OpenStreetMap momentálně nemá typ objektu "oblast" na rozdíl od jiných geo-datových systémů. Editor online "iD" se pokouší vytvořit abstrakci od základních prvků OSM, která v některých případech funguje dobře, v jiných tolik ne. Vespucci se momentálně nepokouší dělat něco podobného, takže potřebujete vědět trochu o tom, jak jsou reprezentovány oblasti:
+
+* _closed ways (*polygons")_: nejjednodušší a nejběžnější varianty oblastí jsou cesty, které mají sdílený první a poslední uzel tvořící uzavřený "prsten" (například většina budov tohoto typu). To se dělá ve Vespucci jednoduše, prostě se připojte zpět k prvnímu uzlu, až skončíte kreslením oblasti. Poznámka: interpretace uzavřené cesty závisí na jejím označení: například pokud je uzavřená cesta označena jako budova, bude považován za plochu, pokud je označen jako kruhový objezd, pak obvykle ne. V některých situacích, ve kterých mohou být obě interpretace platné, značka "oblast" může objasnit zamýšlené použití.
+* _multi-ploygons_: některé oblasti mají více částí, díry a kroužky, OSM používá specifický typ vztahu (náš obecný účelový objekt, který může modelovat vztahy mezi prvky), aby se dostal kolem toho, vícestranného polygonu. Multi-polygon může mít několik "vnějších" kroužků a více "vnitřních" kroužků. Každý kruh může být buď uzavřený, jak je popsáno nebo více různých způsobů, které mají uzly společného konce. Zatímco velké multi-polygony jsou obtížně zvládnutelné s jakýmkoliv nástrojem, v Vespucci není obtížné vytvářet malé. 
+* _coastlines_: u velmi velkých objektů, kontinentů a ostrovů dokonce i multi-polygonový model nefunguje uspokojivým způsobem. Pro přírodní cesty = pobřežní linie předpokládáme směrovou sémantiku: země je na levé straně cesty, voda na pravé straně. Vedlejším efektem je, že obecně byste neměli zvrátit směr cesty s označením pobřeží. Další informace naleznete na [OSM wiki](http://wiki.openstreetmap.org/wiki/Tag:natural%3Dcoastline).
+
+#### Zlepšení geometrie cesty
+
+Pokud zvětšíte dostatečně daleko zvolený způsob, uvidíte malé "x" uprostřed cesty, které jsou dostatečně dlouhé. Přetahováním "x" vytvoříte uzel způsobem, který se nachází na daném místě. Poznámka: Aby nedošlo k náhodnému vytvoření uzlů, je tato toleranční oblast pro tuto operaci poměrně malá.
+
+#### Vyjmout, kopírovat a vložit
+
+Můžete kopírovat nebo odstranit vybrané uzly a cesty a potom je vložit jednou nebo vícekrát do nového umístění. Rozdělení zachová OSM ID a verzi. Chcete-li vložit, dlouze stiskněte místo, do kterého chcete vložit (uvidíte nitkový kříž označující místo). Potom z nabídky vyberte možnost "Vložit".
+
+#### Efektivně přidávat adresy
+
+Vespucci has an ![Address](../images/address.png) "add address tags" function that tries to make surveying addresses more efficient by predicting the current house number. It can be selected:
+
+* after a long press (_non-simple mode only:): Vespucci will add a node at the location and make a best guess at the house number and add address tags that you have been lately been using. If the node is on a building outline it will automatically add a "entrance=yes" tag to the node. The tag editor will open for the object in question and let you make any necessary further changes.
+* in the node/way selected modes: Vespucci will add address tags as above and start the tag editor.
+* in the property editor.
+
+Předpověď čísla domu obvykle vyžaduje, aby byly na každé straně silnice zadány alespoň dvě čísla domů, čím je více dat v data, tím lépe.
+
+Zvažte použití tohoto režimu v režimu [Auto-download](#download).  
+
+#### Přidání omezení odbočení
+
+Vespucci má rychlý způsob, jak přidat omezení odbočení. V případě potřeby automaticky rozdělí způsoby a vyzve vás k opětovnému výběru prvků. 
+
+* vyberte cestu s označením dálnice (pro omezení cesty je možné přidat pouze na dálnicích, pokud to potřebujete pro jiné způsoby, použijte obecný režim "vytvořit vztah") 
+* z nabídky vyberte "Přidat omezení" 
+* vyberte uzel "přes" nebo cestu (pouze dotyková plocha se zobrazí pomocí dotykové plochy) 
+* vyberte cestu "do" (je možné zdvojnásobit zpět a nastavit prvek "to" na " z "elementu, Vespucci předpokládá, že přidáváte omezení no_u_turn) 
+* nastavte typ omezení
+
+### Vespucci je v "uzamčeném" režimu
+
+Když je zobrazen červený zámek, jsou k dispozici všechny akce bez úpravy. Dlouhým stisknutím na objektu nebo v jeho blízkosti se zobrazí obrazovka s detailními informacemi, pokud jde o objekt OSM.
+
+### Uložení změn
+
+*(vyžaduje připojení k síti)*
+
+Vyberte stejné tlačítko nebo položku nabídky, kterou jste provedli při stahování, a nyní vyberte možnost "Odeslat data na server OSM".
+
+Vespucci podporuje autorizaci OAuth a klasickou metodu uživatelského jména a hesla. OAuth je vhodnější, protože se vyhýbá odesílání hesel.
+
+V nové instalaci Vespucci bude ve výchozím nastavení povolený OAuth. Při prvním pokusu o načtení upravených dat se načte stránka z webu OSM. Po přihlášení (prostřednictvím šifrovaného připojení) budete požádáni, abyste Vespucci povolil úpravu pomocí svého účtu. Pokud chcete, nebo potřebujete povolit přístup k účtu OAuth před úpravou, je v nabídce "Nástroje" příslušná položka.
+
+Pokud chcete uložit svou práci a nemáte přístup k Internetu, můžete ji uložit do souboru .osm kompatibilního s JOSM a nahrát později pomocí Vespucci nebo JOSM. 
+
+#### Řešení konfliktů při nahrávání
+
+Vespucci má jednoduché řešení konfliktů. Pokud však máte podezření, že se jedná o závažné potíže s vašimi úpravami, exportujte změny do souboru .osc (položku nabídky "Exportovat" v nabídce "Přenos") a opravte je a nahrajte je pomocí JOSM. Viz podrobná nápověda k [řešení konfliktů](Conflict%20resolution.md).  
+
+## Používání GPS
+
+Vespucci můžete použít k vytvoření stopy GPX a zobrazení v zařízení. Dále můžete zobrazit aktuální polohu GPS (nastavte možnost "Zobrazit polohu" v nabídce GPS) a / nebo nechte polohu na středu obrazovky a postupujte podle polohy (v nabídce GPS nastavte "Sledujte polohu GPS"). 
+
+Chcete-li tuto možnost nastavit, ruční posouvání obrazovky nebo úpravy způsobí deaktivaci režimu "následovat GPS" a změnu modré šipky GPS z obrysu na plnou šipku. Chcete-li se rychle vrátit do "sledovacího" režimu, jednoduše stiskněte tlačítko GPS nebo znovu označte nabídkové menu.
+
+## Poznámky a chyby
+
+Vespucci podporuje stahování, komentování a zavírání OSM Notes (dříve OSM Bugs) a ekvivalentní funkcionalitu "Bugs", vytvořenou nástrojem [OSMOSE Quality Assurance Tool](http://osmose.openstreetmap.fr/en/map/). Obě musí být buď načteny explicitně, nebo můžete použít funkci Automatické stahování pro přístup k položkám v bezprostředním okolí. Po úpravě nebo zavření můžete buď nahrát chybu nebo poznámku okamžitě, nebo nahrát vše najednou.
+
+Na mapě jsou poznámky a chyby reprezentovány malou ikonkou chyby ![Bug](../images/bug_open.png), zelené jsou uzavřené / vyřešené, modré byly vytvořeny nebo editovány vámi a žlutá označuje, že je stále aktivní a nebyla změněna. 
+
+Chybová zpráva OSMOSE poskytne odkaz na postižený objekt v modré barvě, dotykem na odkaz vybere objekt, vystředí jej na obrazovku a v případě potřeby načte oblast předem. 
+
+### Filtrování
+
+Kromě toho, že globálně umožňuje zobrazování poznámek a chyb, můžete nastavit filtr hrubého zrnitého displeje pro snížení chaosu. Ve složce [Pokročilé preference](Advanced%20preferences.md) to můžete individuálně zvolit:
+
+* Poznámky 
+* Osmose chyba
+* Osmose varování
+* Osmose drobná záležitost 
+* Vlastní
+
+<a id="indoor"></a>
+
+## Interierový režim
+
+Mapování v interiéru je náročné kvůli vysokému počtu objektů, které se velmi často překrývají. Vespucci má vyhrazený vnitřní režim, který vám umožní odfiltrovat všechny objekty, které nejsou na stejné úrovni a které automaticky přidávají aktuální úroveň nově vytvořeným objektům.
+
+Režim lze aktivovat dlouhým stisknutím tlačítka zámku, viz [Zamknout, odemknout, přepnout režim](#lock) a vybrat odpovídající položku nabídky.
+
+<a id="c-mode"></a>
+
+## C-Mód
+
+V režimu C-Mód jsou zobrazeny pouze objekty, které mají nastavenou varovnou vlajku, což usnadňuje detekci objektů, které mají specifické problémy nebo odpovídají konfigurovatelným kontrolám. Pokud je vybrán objekt a editor vlastností je spuštěn v režimu C-Mód, automaticky se použije nejlépe odpovídající předvolba.
+
+Režim lze aktivovat dlouhým stisknutím tlačítka zámku, viz [Zamknout, odemknout, přepnout režim](#lock) a vybrat odpovídající položku nabídky.
+
+### Konfigurace kontrol
+
+Currently there are two configurable checks (there is a check for FIXME tags and a test for missing type tags on relations that are currently not configurable) both can be configured by selecting "Validator settings" in the "Preferences". 
+
+Seznam záznamů je rozdělen na dvě části, políčka nahoře vypisují "ověřit záznamy", dolní polovina "zkontrolované záznamy". Záznamy lze editovat kliknutím na ně, zelené tlačítko nabídky umožňuje přidání položek.
+
+#### Ověření záznamů
+
+Položky opětovného Ověření mají následující vlastnosti:
+
+* **Klíč** - Klíč značky, která vás zajímá. 
+* **Hodnota** - Hodnota, kterou má mít značka, která by měla mít, pokud bude prázdná hodnota značky ignorována. 
+* **Stáří** kolik dní poté, co byl prvek naposledy změněn, by měl  být prvek opětovně prozkoumán, pokud je k dispozici pole check_date, které bude použito, jinak bude datum vytvoření aktuální verze. Nastavení hodnoty na nulu vede ke kontrole, která se jednoduše shoduje s klíčem a hodnotou. 
+* **Regulární výraz** - je-li zaškrtnuto, pak **Hodnota** se považuje za JAVA regulární výraz.
+
+**Klíč** a **Hodnota** jsou kontrolovány proti značkám _existing_ daného objektu.
+
+#### Kontrola položek
+
+Kontrolní položky mají následující dvě vlastnosti:
+
+* **Klíč** - Klíč, který by měl být přítomen na objektu podle příslušné předvolby.
+ * **Kontrola volitelných** - Zkontrolujte volitelná označení odpovídajících předvoleb.
+
+Tato kontrola funguje nejdříve při určování přednastavení a následném zkontrolování, zda **Klíč** je pro tento objekt "doporučen" podle předvoleb, **Kontrola volitelných** rozšiřuje kontrolu na značky, které jsou na objektu "volitelné". Upozornění: Aktuální přednastavené položky nejsou zaškrtnuty.
+
+## Filtry
+
+### Filtr na základě tagů
+
+Filtr lze aktivovat z hlavního menu, poté jej lze změnit klepnutím na ikonu filtru. Další dokumentaci naleznete zde [Tag filter](Tag%20filter.md).
+
+### Přednastavený filtr
+
+Alternativou k výše uvedeným objektům jsou objekty filtrovány buď na základě individuálních předvoleb nebo na přednastavených skupinách. Klepnutím na ikonu filtru se zobrazí přednastavené dialogové okno pro výběr, které se používá ve Vespucci. Jednotlivé předvolby lze zvolit pomocí normálního kliknutí, přednastavených skupin dlouhým kliknutím (normální kliknutí se dostane do skupiny). Další dokumentaci naleznete zde [Přednastavený filtr](Preset%20filter.md).
+
+## Přizpůsobení Vespucci
+
+Many aspects of the app can be customized, if you are looking for something specific and can't find it, [the Vespucci website](https://vespucci.io/) is searchable and contains additional information over what is available on device.
+
+### Layer settings
+
+Layer settings can be changed via the layer control (upper right corner), all other setting are reachable via the main menu preferences button.
+
+* Background layer - there is a wide range of aerial and satellite background imagery available, , the default value for this is the "standard style" map from openstreetmap.org.
+* Overlay layer - these are semi-transparent layers with additional information, for example GPX tracks. Adding an overlay may cause issues with older devices and such with limited memory. Default: none.
+* Notes/Bugs display. Open Notes and bugs will be displayed as a yellow bug icon, closed ones the same in green. Default: on.
+* Photo layer. Displays geo-referenced photographs as red camera icons, if direction information is available the icon will be rotated. Default: off.
+
+#### Preferences
+
+* Keep screen on. Default: off.
+* Large node drag area. Moving nodes on a device with touch input is problematic since your fingers will obscure the current position on the display. Turning this on will provide a large area which can be used for off-center dragging (selection and other operations still use the normal touch tolerance area). Default: off.
+
+The full description can be found here [Preferences](Preferences.md)
+
+#### Rozšířené předvolby
+
+* Node icons. Default: on.
+* Always show context menu. When turned on every selection process will show the context menu, turned off the menu is displayed only when no unambiguous selection can be determined. Default: off (used to be on).
+* Enable light theme. On modern devices this is turned on by default. While you can enable it for older Android versions the style is likely to be inconsistent. 
+
+The full description can be found here [Advanced preferences](Advanced%20preferences.md)
+
+## Nahlašování problémů
+
+Pokud dojde k selhání Vespucci, nebo zjistí nekonzistentní stav, budete požádáni o odeslání výpisu havárie. Pokud tak učiníte, postupujte prosím, ale pouze jednou za konkrétní situaci. Chcete-li zadat další informace nebo otevřít problém pro požadavek na funkci nebo podobné, proveďte to prosím zde: [Vespucci issue tracker](https://github.com/MarcusWolschon/osmeditor4android/issues). Funkce „Zpětná vazba“ z hlavní nabídky otevře nový úkol a automaticky přiloží informace o aplikaci a zařížení.
+
+Chcete-li projednat něco souvisejícího s Vespucci, můžete zahájit diskusi buď ve skupině [Vespucci Google](https://groups.google.com/forum/#!forum/osmeditor4android), nebo v [OpenStreetMap Android forum](http://forum.openstreetmap.org/viewforum.php?id=56).
+
+
